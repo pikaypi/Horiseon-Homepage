@@ -8,6 +8,9 @@ This project is a refactor of the homepage for the digital marketing firm Horise
 * Creating a concise descriptive title
 * Cloning, creating, and pushing to Git repositories 
 
+## Where to Find It
+The deployed website can be found [here](https://pikaypi.github.io/Horiseon-Homepage/).
+
 ## What It Looks Like
 ![A screenshot of the fully functional web page.](./assets/images/horiseon-homepage-screenshot.png)
 
