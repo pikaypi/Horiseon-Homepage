@@ -1,3 +1,4 @@
+/* Syling for the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Styling for the header and nav bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-nav {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
+header div ul {
     list-style-type: none;
 }
 
-nav ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* Styling for the hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +62,7 @@ p {
     background-position: center;
 }
 
+/* Styling for floating elements */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,30 +73,14 @@ p {
     margin-left: 25px;
 }
 
+/* Styling for content container*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content section img {
-    max-height: 200px;
-}
-
-.content section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styling for benefits container and its content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +92,42 @@ p {
     background-color: #2589bd;
 }
 
-.benefits section {
+.benefit {
     margin-bottom: 32px;
-    color: white;
+    color: #ffffff;
 }
 
-.benefits section h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits section img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styling for inner content containers */
+.inner-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.inner-content img {
+    max-height: 200px;
+}
+
+.inner-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for the footer */
 footer {
     padding: 30px;
     clear: both;
